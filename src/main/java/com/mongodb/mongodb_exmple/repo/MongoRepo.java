@@ -1,8 +1,8 @@
-package com.mongodb.repo;
+package com.mongodb.mongodb_exmple.repo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.mongodb.Model.Student;
+import com.mongodb.mongodb_exmple.Model.Student;
 
 public interface MongoRepo extends MongoRepository<Student,Integer> {
 }
